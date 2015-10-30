@@ -1,0 +1,171 @@
+<addons>
+  <addon
+    id="plugin.video.abc-iview2" name="ABC iView 2" version="1.0.13" provider-name="boggob">
+    <requires>
+       <import addon="xbmc.python" version="2.1.0" />
+      <import addon="script.module.simplejson"/>
+      <import addon="script.module.beautifulsoup"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata" library="default.py">
+      <summary>ABC iView script originally by Andy Botting</summary>
+      <description>iView offers full-length programs as seen on ABC TV, and iView originals ranging from arts to anime. Programs are added every day; most programs are available for 14 days. You must be located in Australia to access content.</description>
+      <provides>video</provides>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon id="plugin.video.bloomberg" name="Bloomberg" version="1.0.5" provider-name="bog.gob">
+    <requires>
+      <import addon="xbmc.python" version="1.0" />
+      <import addon="script.module.cryptopy" version="1.2.6" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata" library="default.py">
+      <summary>Videos from www.bloomberg.com</summary>
+      <description></description>
+      <provides>video</provides>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon id="plugin.video.c31" name="Channel 31" version="1.0.5" provider-name="bog.gob">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata" library="default.py">
+      <summary>Channel 31</summary>
+      <description></description>
+      <provides>video</provides>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon id="plugin.video.catchuptv.au.nten" name="Network Ten CatchUp TV" version="1.0.2" provider-name="boggob">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <platform>all</platform>
+      <minversion>31542</minversion>
+      <summary>Network Ten CatchUp TV Video Player</summary>
+      <description>Watch latest episodes, sneak peeks, exclusive internet extras and other videos from Network Ten Online.</description>
+      <disclaimer>You must be within Australia to use watch these videos.[CR]"Network Ten", Ten Logos and other works are copyright of their respective owners.</disclaimer>
+    </extension>
+  </addon>
+  <addon id="plugin.video.dtv" name="Deutsche Welle TV" version="1.1.5" provider-name="bog.gob">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata" library="default.py">
+      <summary>Deutsche Welle TV</summary>
+      <description></description>
+      <provides>video</provides>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon id="plugin.video.khan_academy2" name="Khan Academy2" version="1.0.2" provider-name="Denis">
+    <requires>
+      <import addon="xbmc.python" version="1.0" />
+      <import addon="script.module.simplejson" version="2.0.10" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata" library="default.py">
+      <summary>Khan Academy</summary>
+      <description></description>
+      <provides>video</provides>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon id="plugin.video.plus72" name="Plus7 - 2" version="0.0.11" provider-name="boggob">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata" library="default.py">
+      <summary>Plus7 -2</summary>
+      <description>Video streaming of full length episodes as seen on Seven, 7TWO and other content partners</description>
+      <provides>video</provides>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon
+    id="plugin.video.rageagain"
+    name="Rage Again"
+    version="1.0.2"
+    provider-name="boggob">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               provides="video"
+               library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension 
+      point="xbmc.addon.metadata"
+      library="default.py">
+      <summary>Rage Again</summary>
+      <description>Since 1998 rage has posted all their episode playlists online. This website combines these playlists with YouTube allowing you to travel back through time and re-experience rage's recent history.</description>
+      <provides>video</provides>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon id="plugin.video.rt" name="RT" version="1.0.3" provider-name="bog.gob">
+    <requires>
+      <import addon="xbmc.python" version="1.0" />
+      <import addon="script.module.simplejson" version="2.0.10" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata" library="default.py">
+      <summary>RT</summary>
+      <description></description>
+      <provides>video</provides>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  <addon id="plugin.video.sbs2" name="SBS2" version="1.0.24" provider-name="bog.gob">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata" library="default.py">
+      <summary>SBS 2</summary>
+      <description>Catch up TV content for SBS</description>
+      <provides>video</provides>
+      <platform>all</platform>
+      <disclaimer>You must be within Australia to use watch these videos.[CR]"SBS", SBS Logos and other works are copyright of their respective owners.</disclaimer>
+    </extension>
+  </addon>
+  <addon id="script.module.cryptopy"
+         name="CryptoPy"
+         version="1.2.6"
+         provider-name="cryptopy.sourceforge.net">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.module"
+               library="lib" />
+    <extension point="xbmc.addon.metadata">
+      <platform>all</platform>
+    </extension>
+  </addon>
+</addons>
