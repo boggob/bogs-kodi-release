@@ -140,7 +140,7 @@
       <platform>all</platform>
     </extension>
   </addon>
-  <addon id="plugin.video.sbs2" name="SBS2" version="1.0.33" provider-name="bog.gob">
+  <addon id="plugin.video.sbs2" name="SBS2" version="1.0.34" provider-name="bog.gob">
     <requires>
       <import addon="xbmc.python" version="2.1.0" />
     </requires>
