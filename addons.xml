@@ -1,5 +1,5 @@
 <addons>
-  <addon id="metadata.musicbrainz.albums" name="Musicbrainz albums scraper" version="0.0.5" provider-name="bog.gob">
+  <addon id="metadata.musicbrainz.albums" name="Musicbrainz albums scraper" version="0.0.6" provider-name="bog.gob">
   	<requires>
   		<import addon="xbmc.metadata" version="2.1.0"/>
   		<import addon="xbmc.python" version="2.25.0"/>
